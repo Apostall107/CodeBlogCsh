@@ -17,6 +17,7 @@ namespace _17AsyncTreads
             Console.WriteLine("Enter any number: ");
             int n = Int32.Parse(Console.ReadLine());
 
+            //acync should return void or Task / Task<>
 
             MyCalculations.PowMyNumAsync(n);
             MyCalculations.FactorialAsync(n);
