@@ -33,6 +33,8 @@ namespace _23_Lesson
                 Energy = 100
             };
 
+
+            Console.WriteLine(product.GetType());
             Console.WriteLine(product);
             Console.WriteLine(product.Energy);
             Console.WriteLine(product.Name);
@@ -43,17 +45,17 @@ namespace _23_Lesson
             Console.WriteLine($"item 1 :{tuple.Item1}  item2: {tuple.Item2}");
 
             var valueTuple = (MyInt:5, MyDouble: 5.0, MyStr: "123");
-            Console.WriteLine($"{valueTuple}:  MyInt{valueTuple.MyInt}   MyDouble{valueTuple.MyDouble}    MyStr{valueTuple.MyStr}");
+            Console.WriteLine($"{valueTuple.GetType()}:         MyInt{valueTuple.MyInt}   MyDouble{valueTuple.MyDouble}    MyStr{valueTuple.MyStr}");
             valueTuple.MyInt = 55;
             valueTuple.MyDouble = 55;
             valueTuple.MyStr = "123456789";
-            Console.WriteLine($"{valueTuple}:  MyInt{valueTuple.MyInt}   MyDouble{valueTuple.MyDouble}    MyStr{valueTuple.MyStr}");
+            Console.WriteLine($"{valueTuple.GetType()}:     MyInt{valueTuple.MyInt}   MyDouble{valueTuple.MyDouble}    MyStr{valueTuple.MyStr}");
 
 
             var methodData = MyTupleMethod();
 
 
-
+            Console.Read();
         }
 
 
