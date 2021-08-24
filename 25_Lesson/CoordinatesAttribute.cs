@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace _25_Lesson
 {
-
+    [AttributeUsage(AttributeTargets.Property)]
     public class CoordinatesAttribute : Attribute
     {
 

@@ -41,6 +41,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "25_Attribute_Reflection", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25_Lesson", "..\25_Lesson\25_Lesson.csproj", "{21B74C89-144D-4447-94A1-A14AC50B62BC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "26_Serialization", "26_Serialization", "{AFD966E9-E4DB-4C38-A331-7EB3A5011C8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "26_Lesson", "..\26_Lessons\26_Lesson.csproj", "{0E59A685-E140-4C95-A678-F2DDC995A3E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,10 @@ Global
 		{21B74C89-144D-4447-94A1-A14AC50B62BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21B74C89-144D-4447-94A1-A14AC50B62BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21B74C89-144D-4447-94A1-A14AC50B62BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E59A685-E140-4C95-A678-F2DDC995A3E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E59A685-E140-4C95-A678-F2DDC995A3E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E59A685-E140-4C95-A678-F2DDC995A3E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E59A685-E140-4C95-A678-F2DDC995A3E3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -102,6 +110,7 @@ Global
 		{4E2A5E13-7505-4A20-B933-672A43BD4537} = {7681F50B-7AAE-440E-A237-7DF37D6D7A5D}
 		{13B1C961-2B74-44A9-8B8A-B69F5061E266} = {F3A8CF50-C973-40B4-BBF9-0EE1F841EB47}
 		{21B74C89-144D-4447-94A1-A14AC50B62BC} = {B112B0D5-B71E-4236-9FA7-5CF06269024F}
+		{0E59A685-E140-4C95-A678-F2DDC995A3E3} = {AFD966E9-E4DB-4C38-A331-7EB3A5011C8A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B244F34F-9C00-4683-880E-4E9879F64253}
